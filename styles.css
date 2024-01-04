@@ -1,0 +1,83 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url("https://th.bing.com/th/id/R.4ae5b412d172e1f1e005b19e24ca8149?rik=TWVo23J1Or7KXQ&pid=ImgRaw&r=0");
+  background-position-x: center;
+  background-size: 205vh;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  font-size: 10%;
+}
+
+h2 {
+  color: rgb(255, 213, 0);
+  padding: px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+label {
+  color: rgb(255, 213, 0);
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+button {
+  font-family: Georgia, serif;
+  padding: 10px 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  border: solid;
+  border-color: rgb(0, 200, 0);
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(0, 200, 0);
+  box-shadow: 0 0 10px rgba(0, 200, 0, 0.50);
+}
+
+a {
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  border: solid;
+  border-color: rgb(255, 213, 0);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+
+a:hover {
+  background-color: rgb(255, 213, 0);
+  box-shadow: 0 0 10px rgba(255, 213, 0, 0.50);
+}
+

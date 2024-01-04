@@ -1,0 +1,35 @@
+button {
+font-family: Georgia, serif;
+padding: 3px 5px;
+border-radius: 5px;
+border: solid;
+border-color: rgb(0, 200, 0);
+background-color: rgb(0, 200, 0);
+box-shadow: 0 0 10px rgba(0, 200, 0, 0.50);
+cursor: pointer;
+transition: background-color 0.3s ease;
+transition: box-shadow 0.3s ease;
+}
+button:hover {
+background-color: rgb(0, 200, 0);
+box-shadow: 0 0 10px rgba(0, 200, 0, 0.50);
+}
+
+a{
+    font-family: Georgia, serif;
+padding: 1px 3px;
+border-radius: 3px;
+border: solid;
+text-transform: underline;
+border-color: rgb(251, 255, 0);
+background-color: rgb(251, 255, 0);
+box-shadow: 0 0 10px rgba(251, 255, 0, 0.50);
+cursor: pointer;
+text-decoration: none;
+transition: background-color 0.3s ease;
+transition: box-shadow 0.3s ease;
+}
+a:hover {
+    background-color: rgb(251, 255 , 0);
+    box-shadow: 0 0 10px rgba(251, 255, 0, 0.50);
+    }

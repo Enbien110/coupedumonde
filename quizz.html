@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projet</title>
+  <H1>Quiz</H1>
+  <link rel="stylesheet" href="script.css">
+</head>
+<body>
+  <div id="question1">Quelle année la France a gagné la coupe ?</div>
+  <div id="reponse1">
+    <input type="checkbox" id="1.1" onclick="decoche(1,1)"><span>1990</span><br>
+    <input type="checkbox" id="1.2" onclick="decoche(1,2)"><span>1995</span><br>
+    <input type="checkbox" id="1.3" onclick="decoche(1,3)"><span>1998</span><br>
+    <input type="checkbox" id="1.4" onclick="decoche(1,4)"><span>1997</span><br>
+  </div>
+  <button onclick="check(1)">Valider</button>
+  <div id="feedback1"></div>
+  <br><br>
+  
+  <div id="question2">En quelle année le premier tournoi de la Coupe du Monde de la FIFA a-t-il eu lieu ?</div>
+  <div id="reponse2">
+    <input type="checkbox" id="2.1" onclick="decoche(2,1)"><span>1926</span><br>
+    <input type="checkbox" id="2.2" onclick="decoche(2,2)"><span>1930</span><br>
+    <input type="checkbox" id="2.3" onclick="decoche(2,3)"><span>1940</span><br>
+    <input type="checkbox" id="2.4" onclick="decoche(2,4)"><span>1950</span><br>
+  </div>
+  <button onclick="check(2)">Valider</button>
+  <div id="feedback2"></div>
+  <br><br>
+  
+  <div id="question3">Combien de fois l'Allemagne a-t-elle remporté la Coupe du Monde de la FIFA ?</div>
+  <div id="reponse3">
+    <input type="checkbox" id="3.1" onclick="decoche(3,1)"><span>2</span><br>
+    <input type="checkbox" id="3.2" onclick="decoche(3,2)"><span>3</span><br>
+    <input type="checkbox" id="3.3" onclick="decoche(3,3)"><span>1</span><br>
+    <input type="checkbox" id="3.4" onclick="decoche(3,4)"><span>4</span><br>
+  </div>
+  <button onclick="check(3)">Valider</button>
+  <div id="feedback3"></div>
+  
+  <a href="index.html">Revenir pour se connecter </a>
+  <div id="nameMdpInfo"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
